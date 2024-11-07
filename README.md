@@ -7,7 +7,7 @@
  - step7: create: model => serializers => views => urls in `test_app`
  - step8: config `urls` in `test_main`
  - step9: config `settings` in `test_main`
- -   - INSTALLED_APPS:
- -     - rest_framework
- -     - test_app
+   - INSTALLED_APPS:
+     - rest_framework
+     - test_app
  - step10: python manage.py runserver
