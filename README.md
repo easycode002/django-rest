@@ -1,0 +1,13 @@
+ - step1: Create venv
+ - step2: pip install django
+ - step3: django-admin startproject test_main
+ - step4: navigate to `test_main`
+ - step5: python manage.py startapp test_app
+ - step6: pip install djangorestframework pymongo pytz
+ - step7: create: model => serializers => views => urls in `test_app`
+ - step8: config `urls` in `test_main`
+ - step9: config `settings` in `test_main`
+ -   - INSTALLED_APPS:
+ -     - rest_framework
+ -     - test_app
+ - step10: python manage.py runserver
